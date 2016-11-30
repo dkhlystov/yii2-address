@@ -62,9 +62,9 @@ class AddressInput extends InputWidget
 	public $searchLabel = 'Find on map';
 
 	/**
-	 * @var string label for "remove placemark" button
+	 * @var string label for "remove marker" button
 	 */
-	public $removeLabel = 'Remove placemark';
+	public $removeLabel = 'Remove marker';
 
 	/**
 	 * @inheritdoc
