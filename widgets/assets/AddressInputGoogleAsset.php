@@ -11,10 +11,6 @@ class AddressInputGoogleAsset extends AssetBundle
 		'address-input-google.js',
 	];
 
-	public $css = [
-		'address-input.css',
-	];
-
 	public $depends = [
 		'yii\web\JqueryAsset',
 	];
