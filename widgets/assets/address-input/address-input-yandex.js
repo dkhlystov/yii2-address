@@ -12,13 +12,13 @@ ymaps.ready(function() {
 		$container.parent().find('.address-map-remove').click(removeAddress);
 
 		if (latitude == '' || longitude == '') {
-			// ymaps.geolocation.get({
-			// 	provider: 'yandex'
-			// }).then(function (res) {
-			// 	initMap(res.geoObjects.position);
-			// }, function (err) {
+			ymaps.geolocation.get({
+				provider: 'yandex'
+			}).then(function (res) {
+				initMap(res.geoObjects.position);
+			}, function (err) {
 				initMap([55.75583, 37.61778]);
-			// });
+			});
 		} else {
 			initMap([latitude, longitude]);
 			initPlacemark([latitude, longitude]);
