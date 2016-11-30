@@ -19,7 +19,7 @@ function initAddressInputMap() {
 					initMap(data.location);
 				},
 				error: function(xhr, status, error) {
-					initMap({lat: 55.75583, lng: 37.61778);
+					initMap({lat: 55.75583, lng: 37.61778});
 				}
 			});
 		} else {
