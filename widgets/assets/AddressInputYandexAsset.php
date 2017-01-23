@@ -11,6 +11,10 @@ class AddressInputYandexAsset extends AssetBundle
 		'address-input-yandex.js',
 	];
 
+	public $css = [
+		'address-input.css',
+	];
+
 	public $depends = [
 		'yii\web\JqueryAsset',
 	];
