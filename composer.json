@@ -1,6 +1,6 @@
 {
     "name": "dkhlystov/yii2-address",
-    "description": "Address input widget for Yii PHP Framework Version 2",
+    "description": "Address input widget for Yii 2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","address","input","widget"],
     "license": "BSD-3-Clause",
